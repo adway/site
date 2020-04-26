@@ -6,7 +6,7 @@ import {
   IconButton,
   Image,
   Flex,
-  NavLink
+  NavLink,
 } from '@theme-ui/components';
 import Link from 'next/link';
 import { Zap } from 'react-feather';
@@ -20,14 +20,14 @@ const NavButton = ({ sx, ...props }) => (
       transition: 'box-shadow .125s ease-in-out',
       ':hover,:focus': {
         boxShadow: '0 0 0 2px',
-        outline: 'none'
+        outline: 'none',
       },
-      ...sx
+      ...sx,
     }}
   />
 );
 
-const ColorSwitcher = props => {
+const ColorSwitcher = (props) => {
   const [mode, setMode] = useColorMode();
   return (
     <NavButton
@@ -45,7 +45,7 @@ export default () => (
     as='nav'
     sx={{
       color: 'text',
-      py: 4
+      py: 4,
     }}
     key='nav'
   >
@@ -59,8 +59,8 @@ export default () => (
           fontWeight: 'body',
           textDecoration: 'none',
           mr: [3, 4],
-          ':focus,:hover': { color: 'muted' }
-        }
+          ':focus,:hover': { color: 'muted' },
+        },
       }}
     >
       <Link href='/' passHref>
@@ -68,7 +68,7 @@ export default () => (
           as='a'
           sx={{
             alignItems: 'center',
-            mr: 'auto !important'
+            mr: 'auto !important',
           }}
         >
           <NavLink
@@ -76,7 +76,7 @@ export default () => (
             sx={{
               display: ['none', 'inline-block'],
               fontWeight: 'bold !important',
-              ':focus,:hover': { color: 'muted' }
+              ':focus,:hover': { color: 'muted' },
             }}
           >
             Adway Wadekar
@@ -86,7 +86,7 @@ export default () => (
             sx={{
               display: ['inline-block', 'none'],
               fontWeight: 'bold !important',
-              ':focus,:hover': { color: 'muted' }
+              ':focus,:hover': { color: 'muted' },
             }}
           >
             AW
