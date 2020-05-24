@@ -74,22 +74,12 @@ export default () => (
           <NavLink
             as='span'
             sx={{
-              display: ['none', 'inline-block'],
+              display: ['inline-block'],
               fontWeight: 'bold !important',
               ':focus,:hover': { color: 'muted' },
             }}
           >
             Adway Wadekar
-          </NavLink>
-          <NavLink
-            as='span'
-            sx={{
-              display: ['inline-block', 'none'],
-              fontWeight: 'bold !important',
-              ':focus,:hover': { color: 'muted' },
-            }}
-          >
-            AW
           </NavLink>
         </Flex>
       </Link>
