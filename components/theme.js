@@ -68,12 +68,12 @@ export const palette = {
 const theme = merge(base, {
   breakpoints,
   space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
-  fontSizes: [16, 20, 24, 32, 48, 64, 96, 128],
+  fontSizes: [14, 18, 22, 30, 48, 64, 96, 128],
   initialColorMode: 'light',
   useColorSchemeMediaQuery: true,
   colors: {
     ...palette,
-    text: palette.coffee,
+    text: palette.dark,
     background: palette.cream,
     elevated: palette.white,
     sunken: palette.smoke,
@@ -99,7 +99,7 @@ const theme = merge(base, {
     title: 1,
     heading: 1.125,
     subheading: 1.25,
-    body: 1.5,
+    body: 1.75,
   },
   fontWeights: {
     body: 400,
@@ -236,6 +236,9 @@ const theme = merge(base, {
 export const root = (theme) => ({
   backgroundColor: theme.colors.background,
   margin: 0,
+  transitionProperty: 'background-color',
+  transitionTimingFunction: 'ease-out',
+  transitionDuration: '.4s',
 });
 
 export default theme;
