@@ -58,7 +58,7 @@ export default () => (
           color: 'text',
           fontWeight: 'body',
           textDecoration: 'none',
-          mr: [3, 4],
+          mr: [3],
           ':focus,:hover': { color: 'muted' },
         },
       }}
@@ -74,12 +74,22 @@ export default () => (
           <NavLink
             as='span'
             sx={{
-              display: ['inline-block'],
+              display: ['none', 'inline-block'],
               fontWeight: 'bold !important',
               ':focus,:hover': { color: 'muted' },
             }}
           >
-            Adway Wadekar
+            A.S. Wadekar
+          </NavLink>
+          <NavLink
+            as='span'
+            sx={{
+              display: ['inline-block', 'none'],
+              fontWeight: 'bold !important',
+              ':focus,:hover': { color: 'muted' },
+            }}
+          >
+            A.S.W.
           </NavLink>
         </Flex>
       </Link>
@@ -89,7 +99,9 @@ export default () => (
       <Link href='/writing' passHref>
         <NavLink>Writing</NavLink>
       </Link>
-
+      <a href='https://blog.adway.io' target='_blank' passHref>
+        <NavLink>Blog</NavLink>
+      </a>
       <ColorSwitcher />
     </Container>
   </Box>
