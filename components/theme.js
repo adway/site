@@ -69,7 +69,7 @@ const theme = merge(base, {
   breakpoints,
   space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
   fontSizes: [14, 18, 22, 30, 48, 64, 96, 128],
-  initialColorMode: 'light',
+  //
   useColorSchemeMediaQuery: true,
   colors: {
     ...palette,
