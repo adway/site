@@ -46,6 +46,9 @@ const textStyles = {
   },
   ul: { listStyle: 'square' },
   'li > p': { my: 0 },
+  p: {
+    textAlign: 'justify'
+  }
 };
 
 export const palette = {

@@ -1,6 +1,6 @@
 import React from 'react';
 import App from 'next/app';
-import { ThemeProvider, ColorMode } from 'theme-ui';
+import { ThemeProvider, ColorMode, Container } from 'theme-ui';
 import { Global } from '@emotion/core';
 
 import theme, { root } from '../components/theme';
@@ -16,12 +16,14 @@ class Root extends App {
       <>
         <Meta />
         <ThemeProvider theme={theme}>
+          <Container sx={{maxWidth: 'container'}}>
           <ColorMode />
           <Global styles={(theme) => ({ body: root(theme) })} />
           <NProgress color={theme.colors.primary} />
           <Nav />
           <Component {...pageProps} />
           <Footer />
+          </Container>
         </ThemeProvider>
       </>
     );
