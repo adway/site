@@ -47,8 +47,8 @@ const textStyles = {
   ul: { listStyle: 'square' },
   'li > p': { my: 0 },
   p: {
-    textAlign: 'justify'
-  }
+    textAlign: 'justify',
+  },
 };
 
 export const palette = {
@@ -200,8 +200,8 @@ const theme = merge(base, {
   },
   layout: {
     container: {
-      width: '100%',
-      maxWidth: ['container', null, null, null, 'wide'],
+      // width: '100%',
+      maxWidth: ['container'],
       mx: 'auto',
       px: 3,
       ...textStyles,

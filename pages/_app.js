@@ -16,14 +16,12 @@ class Root extends App {
       <>
         <Meta />
         <ThemeProvider theme={theme}>
-          <Container sx={{maxWidth: 'container'}}>
           <ColorMode />
           <Global styles={(theme) => ({ body: root(theme) })} />
           <NProgress color={theme.colors.primary} />
           <Nav />
           <Component {...pageProps} />
           <Footer />
-          </Container>
         </ThemeProvider>
       </>
     );
