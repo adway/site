@@ -79,7 +79,7 @@ export default () => (
               ':focus,:hover': { color: 'muted' },
             }}
           >
-            A.S. Wadekar
+            Adway Wadekar
           </NavLink>
           <NavLink
             as='span'
@@ -89,10 +89,11 @@ export default () => (
               ':focus,:hover': { color: 'muted' },
             }}
           >
-            A.S.W.
+            <Avatar size={55} src='/adway.jpg' />
           </NavLink>
         </Flex>
       </Link>
+
       <Link href='/research' passHref>
         <NavLink>Research</NavLink>
       </Link>
