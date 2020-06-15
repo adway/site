@@ -12,7 +12,7 @@ const heading = {
 
 const textStyles = {
   color: 'text',
-  fontFamily: '"Gentium Basic", serif',
+  fontFamily: '"IBM Plex Serif", "Gentium Basic", serif',
   fontSize: 1,
   fontWeight: 'body',
   lineHeight: 'body',
@@ -71,7 +71,7 @@ export const palette = {
 const theme = merge(base, {
   breakpoints,
   space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
-  fontSizes: [14, 18, 22, 30, 48, 64, 96, 128],
+  fontSizes: [13, 17, 21, 29, 47, 63, 95, 127],
   //
   useColorSchemeMediaQuery: true,
   colors: {
