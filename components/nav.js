@@ -97,7 +97,7 @@ export default () => (
       <Link href='/research' passHref>
         <NavLink>Research</NavLink>
       </Link>
-      <Link href='/writing' passHref>
+      <Link href='/journalism' passHref>
         <NavLink>Journalism</NavLink>
       </Link>
       <Link href='https://blog.adway.io' target='_blank' passHref>
