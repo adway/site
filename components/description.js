@@ -1,13 +1,17 @@
-import { Box, Text } from '@theme-ui/components';
+import { Box } from '@theme-ui/components';
 
-export const Description = ({ children }) => (
+export const Description = ({ children, sx }) => (
   <Box
     as='section'
     sx={{
       pb: 2,
       mb: 4,
       borderBottom: '1px solid',
-      borderBottomColor: 'muted'
+      borderBottomColor: 'muted',
+      div: {
+        pb: 3,
+      },
+      ...sx,
     }}
   >
     {children}

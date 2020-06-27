@@ -71,7 +71,7 @@ export const palette = {
 const theme = merge(base, {
   breakpoints,
   space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
-  fontSizes: [13, 17, 21, 29, 47, 63, 95, 127],
+  fontSizes: [13, 16, 20, 28, 47, 63, 95, 127],
   //
   useColorSchemeMediaQuery: true,
   colors: {
@@ -161,6 +161,9 @@ const theme = merge(base, {
       color: 'muted',
       fontWeight: 'medium',
       letterSpacing: 'heading',
+    },
+    description: {
+      pb: 2,
     },
   },
   buttons: {
