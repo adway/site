@@ -100,9 +100,9 @@ export default () => (
       <Link href='/journalism' passHref>
         <NavLink>Journalism</NavLink>
       </Link>
-      <Link href='https://blog.adway.io' target='_blank' passHref>
+      <a href='https://blog.adway.io'>
         <NavLink>Blog</NavLink>
-      </Link>
+      </a>
       <ColorSwitcher />
     </Container>
   </Box>
