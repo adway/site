@@ -38,6 +38,7 @@ export default ({
       rel='stylesheet'
       key='fonts'
     />
+
     <link rel='shortcut icon' href='/favicon.ico' />
   </Head>
 );
