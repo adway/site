@@ -236,14 +236,15 @@ const theme = merge(base, {
       borderBottom: '1px solid',
       borderColor: 'border',
     },
-    root: {
-      backgroundColor: 'background',
-      margin: 0,
-      transitionProperty: 'background',
-      transitionTimingFunction: 'ease-out',
-      transitionDuration: '.4s',
-    }
   },
+});
+
+export const root = (theme) => ({
+  backgroundColor: theme.colors.background,
+  margin: 0,
+  transitionProperty: 'background-color',
+  transitionTimingFunction: 'ease-out',
+  transitionDuration: '.4s',
 });
 
 export default theme;
