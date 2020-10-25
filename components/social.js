@@ -7,7 +7,7 @@ export const Social = ({children, sx, size = 25}) => (
       <h2 sx={{fontWeight: 'body'}}> Contact </h2>
 </Flex>
   <Flex sx={{
-    m: 'auto', justifyContent: 'center', gap: 3, mt: 2,
+    m: 'auto', justifyContent: 'center', gap: [3, 3], mt: 2,
     ...sx}}>
     <a href="https://instagram.com/_adway"><Instagram size = {size}/></a>
     <a href="https://linkedin.com/adwaywadekar"><Linkedin size = {size}/></a>
