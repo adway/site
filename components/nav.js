@@ -75,7 +75,7 @@ export default () => (
             as='span'
             sx={{
               display: ['none', 'inline-block'],
-              fontWeight: 'bold !important',
+              fontWeight: 'heading',
               ':focus,:hover': { color: 'muted' },
             }}
           >
