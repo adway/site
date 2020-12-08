@@ -100,7 +100,7 @@ export default () => (
       <Link href='/journalism' passHref>
         <NavLink>Journalism</NavLink>
       </Link>
-      <ColorSwitcher />
+      {/* <ColorSwitcher /> */}
     </Container>
   </Box>
 );
