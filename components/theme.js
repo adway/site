@@ -73,7 +73,7 @@ const theme = merge(base, {
   space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
   fontSizes: [13, 16, 20, 28, 47, 63, 95, 127],
   //
-  useColorSchemeMediaQuery: false,
+  useColorSchemeMediaQuery: true,
   colors: {
     ...palette,
     text: palette.dark,
