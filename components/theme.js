@@ -76,8 +76,8 @@ const theme = merge(base, {
   useColorSchemeMediaQuery: true,
   colors: {
     ...palette,
-    text: palette.dark,
-    background: palette.white,
+    text: palette.coffee,
+    background: palette.cream,
     elevated: palette.white,
     sunken: palette.smoke,
     border: palette.border,
@@ -208,6 +208,12 @@ const theme = merge(base, {
       mx: 'auto',
       px: 3,
       ...textStyles,
+      ol: {
+        paddingLeft: 3,
+      },
+      ul: {
+        paddingLeft: 3
+      }
     },
     copy: {
       width: '100%',
@@ -228,15 +234,7 @@ const theme = merge(base, {
       mx: 'auto',
       px: 3,
     },
-  },
-  styles: {
-    hr: {
-      border: 0,
-      my: [3, 4],
-      borderBottom: '1px solid',
-      borderColor: 'border',
-    },
-  },
+  }
 });
 
 export const root = (theme) => ({
@@ -245,6 +243,7 @@ export const root = (theme) => ({
   transitionProperty: 'background-color',
   transitionTimingFunction: 'ease-out',
   transitionDuration: '.4s',
+
 });
 
 export default theme;

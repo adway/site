@@ -12,8 +12,8 @@ export default () => (
         a: { color: 'inherit' }
       }}
     >
-      &copy; Adway S. Wadekar
-      <Social />
+      <Box>&copy; Adway S. Wadekar</Box>
+      <Box sx={{fontSize: 0}}>e-mail: <a href="mailto:adway@adway.io">adway@adway.io</a></Box>
     </Container>
   </Box>
 );
