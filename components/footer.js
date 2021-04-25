@@ -13,7 +13,7 @@ export default () => (
       }}
     >
       <Box>&copy; Adway S. Wadekar</Box>
-      <Box sx={{fontSize: 0}}>e-mail: <a href="mailto:adway.wadekar@duke.edu">adway@adway.io</a> &#8226; <a href="/resume.pdf">Résumé</a></Box>
+      <Box sx={{fontSize: 0}}>e-mail: <a href="mailto:adway.wadekar@duke.edu">adway.wadekar@duke.edu</a> &#8226; <a href="/resume.pdf">Résumé</a></Box>
     </Container>
   </Box>
 );
