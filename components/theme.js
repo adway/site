@@ -60,7 +60,7 @@ export const palette = {
   snow: '#fafafa',
   white: '#ffffff',
   sand: '#f5efe6',
-  primary: '#128BD2',
+  primary: '#00539B',
   muted: '#504c52',
   mutedLight: '#ccb',
   border: 'rgba(0,0,0,0.1)',
