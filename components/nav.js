@@ -89,7 +89,7 @@ export default () => (
               ':focus,:hover': { color: 'muted' },
             }}
           >
-            <Avatar size={55} src='/adway.png' />
+            <Avatar size={55} src='/wadekar_adway.jpg' />
           </NavLink>
         </Flex>
       </Link>
