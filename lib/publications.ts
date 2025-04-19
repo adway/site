@@ -32,7 +32,7 @@ export const publications: Publication[] = [
     journal: "Epidemiology",
     year: 2024,
     abstract:
-      "We present an approach complex survey design into assessing efficacy of binary outcome classifiers.",
+      "We present an approach for incorporating complex survey design into assessing efficacy of binary outcome classifiers.",
     doi: "10.1097/EDE.0000000000001776",
   },
   {
