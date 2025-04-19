@@ -21,7 +21,7 @@ export type Expository = {
 // Replace these sample publications with your own
 export const publications: Publication[] = [
   {
-    title: "A sensitivity analysis approach to quantifying confidence in decisions in the presence of data uncertainty",
+    title: "A sensitivity analysis framework for quantifying confidence in decisions in the presence of data uncertainty",
     authors: ["Adway S. Wadekar", "Jerome P. Reiter"],
     journal: "Working Paper",
     year: 2025,
@@ -58,6 +58,6 @@ export const expository: Expository[] = [
     venue: "Undergraduate thesis",
     year: 2025,
     pdf: "bayes_astat",
-    abstract: "We provide the statistical intuition behind recent papers that study the algebraic and geometric properties of log-linear models"
+    abstract: "We provide the statistical intuition behind recent papers that study the algebraic and geometric properties of log-linear models."
   }
 ] 
