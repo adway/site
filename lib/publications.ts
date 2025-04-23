@@ -57,7 +57,7 @@ export const expository: Expository[] = [
     authors: ["Adway S. Wadekar"],
     venue: "Undergraduate thesis",
     year: 2025,
-    pdf: "bayes_astat",
-    abstract: "We provide the statistical intuition behind recent papers that study the algebraic and geometric properties of log-linear models."
+    pdf: "astat",
+    abstract: "We provide the statistical intuition behind recent papers that study the algebraic and geometric properties of log-linear models. This is still a work in progress, and comments on the presentation are much appreciated."
   }
 ] 
