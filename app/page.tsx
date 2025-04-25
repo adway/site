@@ -46,7 +46,7 @@ export default function Home() {
       <main>
         <section id="about" className="mb-8">
           <p>
-          I'm a senior at Duke University studying mathematics and statistics. My research interests are broad and lie in statistical genetics, missing and synthetic data, differential privacy, network-based and graphical modeling and assumption-free inference. I also have a growing interest in (theoretical) population genetics and high-dimensional probability.
+          I'm a senior at Duke University studying mathematics and statistics. My research interests are broad and lie in statistical genetics, missing and synthetic data, differential privacy, network-based and graphical modeling and assumption-free/light inference. I also have a growing interest in (theoretical) population genetics and high-dimensional probability.
           </p>
           <p>
           At Duke, I am very fortunate to work with Prof. Jerry Reiter, Prof. Jichun Xie and Prof. Ezra Miller. I also work with Prof. Chirag Patel at Harvard Medical School.
