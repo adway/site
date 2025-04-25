@@ -79,6 +79,16 @@ export default function Home() {
                         View Publication <ArrowUpRight className="ml-1 h-3 w-3" />
                       </Link>
                     )}
+                    {publication.arxiv && (
+                      <Link
+                        href={`https://arxiv.org/abs/${publication.arxiv}`}
+                        className="text-xs text-primary inline-flex items-center"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        View Preprint <ArrowUpRight className="ml-1 h-3 w-3" />
+                      </Link>
+                    )}
                     {publication.abstract && (
                       <button
                         onClick={() => togglePublication(index)}
