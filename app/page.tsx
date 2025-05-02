@@ -21,7 +21,7 @@ export default function Home() {
     <div className="max-w-3xl mx-auto px-4 py-8">
       <header className="mb-8 flex items-start gap-4">
         <div className="relative h-28 w-28 overflow-hidden rounded-full flex-shrink-0 border-2 border-primary">
-          <Image src="/adway.png" alt="Profile" fill className="object-cover" priority />
+          <Image src="/adway.jpg" alt="Profile" fill className="object-cover" priority />
         </div>
         <div>
           <h1 className="text-2xl font-bold text-primary">Adway Wadekar</h1>
