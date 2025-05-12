@@ -46,13 +46,13 @@ export default function Home() {
       <main>
         <section id="about" className="mb-8">
           <p>
-          I'm a senior at Duke University studying mathematics and statistics. This fall, I will begin my PhD in the Department of Statistics at the University of Michigan.
+          I'm an incoming PhD student in the Department of Statistics at the University of Michigan. I graduated from Duke University with a BS in mathematics and statistical science in 2025.
           </p>
           <p>
           My research interests are broad and lie in statistical genetics, missing and synthetic data, differential privacy, network-based and graphical modeling and assumption-free/light inference. I also have a growing interest in (theoretical) population genetics and high-dimensional probability.
           </p>
           <p>
-          At Duke, I am very fortunate to work with Prof. Jerry Reiter, Prof. Jichun Xie and Prof. Ezra Miller. I also work with Prof. Chirag Patel at Harvard Medical School.
+          At Duke, I was fortunate to be advised by Prof. Jerry Reiter and Prof. Ezra Miller. I also worked with Prof. Jichun Xie and Prof. Chirag Patel at Harvard Medical School.
           </p>
           <p>
           Outside of research, I have a strong interest in journalism and worked as a news reporter and editor for The Chronicle, Duke's student-run newspaper. I am an avid basketball fan and worked on the creative team for Duke Men’s Basketball.
