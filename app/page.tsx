@@ -19,7 +19,7 @@ export default function Home() {
   }
 
   return (
-    <div className="max-w-3xl mx-auto px-4 py-8">
+    <div className="max-w-4xl mx-auto px-4 py-8">
       <header className="mb-8 flex items-start gap-4">
         <div className="relative h-32 w-32 overflow-hidden rounded-full flex-shrink-0 border-2 border-primary">
           <Image src="/adway.jpg" alt="Profile" fill className="object-cover" priority />
@@ -48,7 +48,7 @@ export default function Home() {
       <main>
         <section id="about" className="mb-8">
           <p>
-          I'm an incoming PhD student in the Department of Statistics at the University of Michigan. I graduated from Duke University with a B.S. in mathematics and statistical science in 2025.
+          I'm an incoming PhD student in the Department of Statistics at the University of Michigan. I graduated from Duke University with a B.S. in mathematics and statistical science in May 2025.
           </p>
           <p>
           My research interests are broad and range across statistical genetics, missing and synthetic data, differential privacy, network-based and graphical modeling and assumption-free/light inference. I also have a growing interest in population genetics and high-dimensional probability.
