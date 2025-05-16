@@ -1,6 +1,6 @@
 "use client"
 
-import { ArrowUpRight, Github, Linkedin, Mail, ChevronDown, ChevronUp } from "lucide-react"
+import { ArrowUpRight, Twitter, Linkedin, Mail, ChevronDown, ChevronUp } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
@@ -49,7 +49,7 @@ export default function Home() {
           I'm an incoming PhD student in the Department of Statistics at the University of Michigan. I graduated from Duke University with a B.S. in mathematics and statistical science in 2025.
           </p>
           <p>
-          My research interests are broad and lie in statistical genetics, missing and synthetic data, differential privacy, network-based and graphical modeling and assumption-free/light inference. I also have a growing interest in (theoretical) population genetics and high-dimensional probability.
+          My research interests are broad and range across statistical genetics, missing and synthetic data, differential privacy, network-based and graphical modeling and assumption-free/light inference. I also have a growing interest in population genetics and high-dimensional probability.
           </p>
           <p>
           At Duke, I was fortunate to be advised by Prof. Jerry Reiter and Prof. Ezra Miller. I also worked with Prof. Jichun Xie and Prof. Chirag Patel at Harvard Medical School.
@@ -176,8 +176,8 @@ export default function Home() {
             >
               <Mail className="h-4 w-4 mr-1" /> adway.wadekar@duke.edu
             </Link>
-            {/* <Link
-              href="https://linkedin.com/in/yourprofile"
+            <Link
+              href="https://linkedin.com/in/adway-wadekar"
               className="flex items-center text-muted-foreground hover:text-primary"
               target="_blank"
               rel="noopener noreferrer"
@@ -185,13 +185,13 @@ export default function Home() {
               <Linkedin className="h-4 w-4 mr-1" /> LinkedIn
             </Link>
             <Link
-              href="https://github.com/yourusername"
+              href="https://x.com/AdwayWadekar"
               className="flex items-center text-muted-foreground hover:text-primary"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Github className="h-4 w-4 mr-1" /> GitHub
-            </Link> */}
+              <Twitter className="h-4 w-4 mr-1" /> Twitter
+            </Link>
           </div>
         </section>
       </main>
