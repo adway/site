@@ -5,6 +5,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
 import { publications, expository } from "@/lib/publications"
+import ThemeToggle from "@/components/ThemeToggle"
 
 export default function Home() {
   const [expandedPublication, setExpandedPublication] = useState<number | null>(null)
@@ -27,6 +28,7 @@ export default function Home() {
           <h1 className="text-2xl font-bold text-primary">Adway Wadekar</h1>
           <p className="text-sm text-muted-foreground">Graduate student at the University of Michigan</p>
           <nav className="flex mt-4 space-x-4 text-sm">
+            <ThemeToggle/>
             <Link href="#about" className="text-muted-foreground hover:text-primary">
               About
             </Link>
