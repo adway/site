@@ -51,7 +51,7 @@ export default function Home() {
           I'm an incoming PhD student in the Department of Statistics at the University of Michigan. I graduated from Duke University with a B.S. in mathematics and statistical science in May 2025.
           </p>
           <p>
-          My research interests are broad and range across statistical genetics, missing and synthetic data, differential privacy, network-based and graphical modeling and assumption-free/light inference. I also have a growing interest in population genetics and high-dimensional probability.
+          I am broadly interested in Bayesian and high-dimensional statistics and machine learning, drawing inspiration from the social and biomedical sciences. Specific areas of application interest include missing data, privacy, observational studies, population genetics and the analysis of network/graphical data.
           </p>
           <p>
           At Duke, I was fortunate to be advised by Prof. Jerry Reiter and Prof. Ezra Miller. I also worked with Prof. Jichun Xie and Prof. Chirag Patel at Harvard Medical School.
