@@ -173,10 +173,10 @@ export default function Home() {
           <h2 className="text-xl font-bold mb-4 text-primary">Contact</h2>
           <div className="flex space-x-4 text-sm">
             <Link
-              href="mailto:adway.wadekar@duke.edu"
+              href="mailto:awadekar@umich.edu"
               className="flex items-center text-muted-foreground hover:text-primary"
             >
-              <Mail className="h-4 w-4 mr-1" /> adway.wadekar@duke.edu
+              <Mail className="h-4 w-4 mr-1" /> awadekar@umich.edu
             </Link>
             <Link
               href="https://linkedin.com/in/adway-wadekar"
