@@ -35,6 +35,7 @@ export const publications: Publication[] = [
     abstract:
       "We present an approach for incorporating complex survey design into assessing efficacy of binary outcome classifiers.",
     doi: "10.1097/EDE.0000000000001776",
+    arxiv: "2311.00596"
   },
   {
     title: "A psychosocial approach to predicting substance use disorder (SUD) among adolescents",
