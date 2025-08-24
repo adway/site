@@ -23,7 +23,7 @@ export const publications: Publication[] = [
   {
     title: "A sensitivity analysis framework for quantifying confidence in decisions in the presence of data uncertainty",
     authors: ["Adway S. Wadekar", "Jerome P. Reiter"],
-    journal: "Under review at Statistics and Public Policy",
+    journal: "Major revision at Statistics and Public Policy",
     arxiv: "2504.17043",
     year: 2025,
   },
