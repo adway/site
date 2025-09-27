@@ -51,7 +51,7 @@ export default function Home() {
           I'm a first-year PhD student in the Department of Statistics at the University of Michigan. I graduated from Duke University with a B.S. in mathematics and statistical science in May 2025.
           </p>
           <p>
-          I am broadly interested in Bayesian and high-dimensional statistics and machine learning, drawing inspiration from the social and biomedical sciences. Specific areas of application interest include missing data, privacy, observational studies, population genetics and the analysis of discrete data and latent structures.
+          I am interested in developing general, robust and assumption-light statistical methodology, often on principles from Bayesian statistics/machine learning. I find the most interesting inspiration for such methods in biomedicine (especially medical and population genetics) and the social sciences (experimental design, causal inference, privacy, survey methodology).
           </p>
           <p>
           At Duke, I was fortunate to be advised by Prof. Jerry Reiter and Prof. Ezra Miller. I also worked with Prof. Jichun Xie and Prof. Chirag Patel at Harvard Medical School.
