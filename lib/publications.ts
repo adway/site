@@ -10,7 +10,8 @@ export type Publication = {
 }
 
 export type Expository = {
-  title: string
+  title: string,
+  authors: string[]
   year: number,
   venue?: string,
   pdf?: string
@@ -18,7 +19,6 @@ export type Expository = {
   abstract?: string
 }
 
-// Replace these sample publications with your own
 export const publications: Publication[] = [
   {
     title: "A sensitivity analysis framework for quantifying confidence in decisions in the presence of data uncertainty",

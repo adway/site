@@ -5,7 +5,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
 import { publications, expository } from "@/lib/publications"
-import ThemeToggle from "@/components/ThemeToggle"
+// import ThemeToggle from "@/components/ThemeToggle"
 
 export default function Home() {
   const [expandedPublication, setExpandedPublication] = useState<number | null>(null)
@@ -28,7 +28,7 @@ export default function Home() {
           <h1 className="text-2xl font-bold text-primary">Adway Wadekar</h1>
           <p className="text-sm text-muted-foreground">Graduate student at the University of Michigan</p>
           <nav className="flex mt-4 space-x-4 text-sm">
-            <ThemeToggle/>
+            {/* <ThemeToggle/> */}
             <Link href="#about" className="text-muted-foreground hover:text-primary">
               About
             </Link>
@@ -51,10 +51,10 @@ export default function Home() {
           I'm a first-year PhD student in the Department of Statistics at the University of Michigan. I graduated from Duke University with a B.S. in mathematics and statistical science in May 2025.
           </p>
           <p>
-          I am interested in developing general, robust and assumption-light statistical methodology, often based on principles from Bayesian statistics and machine learning. I find the most interesting inspiration for such methods in biomedicine (especially medical and population genetics) and the social sciences (experimental design, causal inference, privacy and survey methodology).
+          I am interested in developing general, robust and assumption-light statistical methodology, often based on principles from Bayesian statistics and probabilistic machine learning. My work is motivated by data containing discrete, deep and latent structure. These data arise naturally both in biomedicine (especially medical and population genetics) and in the social sciences (experimental design, causal inference, privacy and survey methodology).
           </p>
           <p>
-          At Duke, I was fortunate to be advised by Prof. Jerry Reiter and Prof. Ezra Miller. I also worked with Prof. Jichun Xie and Prof. Chirag Patel at Harvard Medical School.
+          At Duke, I was fortunate to be advised by Prof. Jerry Reiter and Prof. Ezra Miller. I also worked with Prof. Jichun Xie and with Prof. Chirag Patel at Harvard Medical School.
           </p>
           <p>
           Outside of research, I have a strong interest in journalism and worked as a news reporter and editor for The Chronicle, Duke's student-run newspaper. I am an avid basketball fan and worked on the creative team for Duke Men’s Basketball.
