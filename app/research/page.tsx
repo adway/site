@@ -114,7 +114,7 @@ export default function ResearchPage() {
     {/* EXPOSITORY SECTION */}
     <div className="mt-12 max-w-3xl mx-auto mb-0">
       <h2 className="text-lg font-medium text-zinc-900 border-b border-zinc-200 pb-2 mb-6">
-        Expository
+        Expository Writing
       </h2>
       
       <ul className="space-y-2 list-disc list-inside text-zinc-800">
