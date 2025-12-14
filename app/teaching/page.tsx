@@ -9,7 +9,7 @@ export default function TeachingPage() {
       instructor: null,
       terms: [
         { label: "Fall 2025", links: null},
-        { label: "Spring 2026", links: null}
+        { label: "Winter 2026", links: null}
       ]
     },
     {
