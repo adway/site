@@ -97,7 +97,7 @@ export default function ResearchPage() {
                       <a 
                         key={k} 
                         href={link.url} 
-                        className="mr-3 text-zinc-600 hover:text-blue-800 transition-colors no-underline decoration-zinc-400 hover:decoration-blue-800 underline-offset-4 decoration-1"
+                        className="mr-3 text-zinc-600 hover:text-blue-800 transition-colors no-underline decoration-zinc-400 hover:decoration-blue-800 decoration-1"
                       >
                         [{link.label}]
                       </a>

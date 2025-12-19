@@ -31,11 +31,11 @@
 
   /* 4. The New Accent Color: TEAL */
   a {
-    @apply font-medium decoration-2 underline-offset-2 transition-colors;
+    @apply decoration-1 decoration-zinc-400 underline underline-offset-4 transition-colors;
   }
   
   a:hover {
-    @apply text-teal-800 underline;
+    @apply hover:text-blue-800 hover:decoration-blue-800;
   }
   
   /* 5. Lists (Clean bullets) */

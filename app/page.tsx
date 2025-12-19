@@ -15,8 +15,7 @@ export default function Home() {
               src="/adway.jpg" 
               alt="Profile" 
               fill 
-              className="object-cover grayscale hover:grayscale-0 transition-all duration-500" 
-              sizes="192px"
+              className="object-cover hover:grayscale-0 transition-all duration-500" 
             />
         </div>
         </div>
@@ -58,13 +57,13 @@ export default function Home() {
       <section>
         {/* Body Text: Serif, Regular weight (not medium), slightly larger (text-lg) for readability */}
         <p className="text-base text-zinc-800 mb-5 leading-snug text-justify">
-          I am a first-year PhD student in the Department of Statistics at the University of Michigan. I graduated from Duke University with a B.S. in mathematics and statistical science in May 2025.
+          I am a first-year PhD student in the <a href="https://stat.lsa.umich.edu">Department of Statistics</a> at the <a href="https://umich.edu">University of Michigan</a>. I graduated from Duke University with a B.S. in mathematics and statistical science in May 2025.
         </p>
         <p className="text-base text-zinc-800 mb-5 leading-snug text-justify">
-          I am interested in developing general, robust, and assumption-light statistical methodology, often based on principles from Bayesian statistics and probabilistic machine learning. My work is motivated by data containing discrete, deep, and latent structure. These data arise naturally both in biomedicine (especially medical and population genetics) and in the social sciences (experimental design, causal inference, privacy, and survey methodology).   
+          I am interested in developing <span className="font-medium">general, robust, and assumption-light statistical methodology</span>, often based on principles from <span className="font-medium">Bayesian statistics and probabilistic machine learning</span>. My work is motivated by data containing discrete, deep, and latent structure. These data arise naturally both in <span className="font-medium">biomedicine</span> (especially medical and population genetics) and in the <span className="font-medium">social sciences</span> (experimental design, causal inference, privacy, and survey methodology).   
         </p>
         <p className="text-base text-zinc-800 mb-5 leading-snug text-justify">
-          At Duke, I was fortunate to be advised by Prof. Jerry Reiter and Prof. Ezra Miller. I also worked with Prof. Jichun Xie and with Prof. Chirag Patel at Harvard Medical School.
+          At Duke, I was fortunate to be advised by Prof. <a href="https://stat.duke.edu/~jerry">Jerry Reiter</a> and Prof. <a href="https://math.duke.edu/~ezra">Ezra Miller</a>. I also worked with Prof. Jichun Xie and with Prof. <a href="https://chiragjpgroup.org">Chirag Patel</a> at Harvard Medical School.
         </p>
         <p className="text-base text-zinc-800 leading-snug text-justify">
           Outside of research, I have a strong interest in journalism and worked as a news reporter and editor for <span className="italic">The Chronicle</span>, Duke's student-run newspaper. I am an avid basketball fan and worked on the creative team for Duke Men’s Basketball.
