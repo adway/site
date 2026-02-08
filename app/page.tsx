@@ -66,7 +66,7 @@ export default function Home() {
           At Duke, I was fortunate to be advised by Prof. <a href="https://stat.duke.edu/~jerry">Jerry Reiter</a> and Prof. <a href="https://math.duke.edu/~ezra">Ezra Miller</a>. I also worked with Prof. Jichun Xie and with Prof. <a href="https://chiragjpgroup.org">Chirag Patel</a> at Harvard Medical School.
         </p>
         <p className="text-base text-zinc-800 leading-snug text-justify">
-          Outside of research, I have a strong interest in journalism and worked as a news reporter and editor for <span className="italic">The Chronicle</span>, Duke's student-run newspaper. I am an avid basketball fan and worked on the creative team for Duke Men’s Basketball.
+          Outside of research, I have a strong interest in journalism and worked as a <a href="https://www.dukechronicle.com/staff/adway-s-wadekar">news reporter and editor</a> for <span className="italic">The Chronicle</span>, Duke's student-run newspaper. I am an avid basketball fan and worked on the creative team for Duke Men’s Basketball.
         </p>
       </section>
 
