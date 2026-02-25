@@ -47,3 +47,11 @@
     @apply mb-2 pl-2;
   }
 }
+
+@layer components {
+  .katex-display {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0.25rem 0;
+  }
+}

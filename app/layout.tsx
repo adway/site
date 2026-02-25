@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import 'katex/dist/katex.min.css';
 import Navbar from '../components/Navbar';
+import { hasPublishedPosts } from '@/lib/notes';
 
 export const metadata: Metadata = {
   title: 'Adway Wadekar',
@@ -12,14 +14,12 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const showNotes = hasPublishedPosts();
+
   return (
     <html lang="en">
-      {/* - font-sans: Forces the font to be Sans-Serif (Helvetica/Arial/Inter)
-        - text-zinc-900: A sharp, nearly-black color (sharper than Slate)
-        - antialiased: Makes the text look thinner and crisper
-      */}
       <body className="font-sans antialiased text-zinc-900">
-        <Navbar />
+        <Navbar showNotes={showNotes} />
         <main className="mx-auto px-6">
           {children}
         </main>

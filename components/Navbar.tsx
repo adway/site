@@ -3,13 +3,18 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
-export default function Navbar() {
+type NavbarProps = {
+  showNotes: boolean;
+};
+
+export default function Navbar({ showNotes }: NavbarProps) {
   const pathname = usePathname();
 
   const navItems = [
     { name: 'Home', path: '/' },
     { name: 'Research', path: '/research' },
-    { name: 'Teaching', path: '/teaching' }
+    { name: 'Teaching', path: '/teaching' },
+    ...(showNotes ? [{ name: 'Notes', path: '/notes' }] : []),
   ];
 
   return (

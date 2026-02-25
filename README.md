@@ -1,5 +1,36 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Notes Authoring
+
+This site includes file-based notes at `/notes`.
+
+1. Create a new Markdown file in `content/notes/your-slug.md`.
+2. Add front matter at the top:
+
+```md
+---
+title: Your Title
+date: 2026-02-25
+summary: One-line summary
+tags: probability, inference
+published: true
+---
+```
+
+3. Write your note body below the front matter.
+
+Publishing controls:
+- Default: notes are published unless explicitly marked otherwise.
+- Unpublish with either `published: false`, `status: draft`, or a tag like `draft`/`unpublished`.
+- Publish explicitly with `published: true`, `status: published`, or a `published` tag.
+
+Supported Markdown in notes:
+- `#`, `##`, `###` headings
+- Paragraphs
+- Bullet lists (`- item`)
+- Fenced code blocks (triple backticks)
+- Inline code and links
+
 ## Getting Started
 
 First, run the development server:

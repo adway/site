@@ -1,5 +1,3 @@
-import { linkSync } from "fs";
-
 export default function TeachingPage() {
   const teaching = [
     {
