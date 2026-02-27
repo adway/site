@@ -6,5 +6,3 @@ published: False
 ---
 
 When a computational biologist thinks of gene-by-environment interactions,
-
-## Hello
