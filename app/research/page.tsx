@@ -5,7 +5,7 @@ export default function ResearchPage() {
       items: [
         {
           title: "A sensitivity analysis framework for quantifying confidence in decisions in the presence of data uncertainty",
-          authors: "Wadekar, A.S. and Reiter, J.P.",
+          authors: "A.S. Wadekar and J.P. Reiter",
           venue: "Major revision at Statistics and Public Policy",
           links: [{ label: "arXiv", url: "https://arxiv.org/abs/2504.17043" }]
         }
@@ -16,7 +16,7 @@ export default function ResearchPage() {
       items: [
         {
           title: "Evaluating binary outcome classifiers estimated from survey data",
-          authors: "Wadekar, A.S. and Reiter, J.P.",
+          authors: "A.S. Wadekar and J.P. Reiter",
           venue: "Epidemiology",
           links: [{ label: "arXiv", url: "https://arxiv.org/abs/2311.00596" }, { label: "doi", url: "https://doi.org/10.1097/EDE.0000000000001776" }]
         }
@@ -27,13 +27,13 @@ export default function ResearchPage() {
       items: [
         {
           title: "A psychosocial approach to predicting substance use disorder (SUD) among adolescents",
-          authors: "Wadekar, A.S.",
+          authors: "A.S. Wadekar",
           venue: "IEEE/ACM ASONAM",
           links: [{ label: "doi", url: "https://doi.org/10.1109/ASONAM49781.2020.9381378" }]
         },
         {
           title: "Understanding opioid use disorder using tree-based classifiers",
-          authors: "Wadekar, A.S.",
+          authors: "A.S. Wadekar",
           venue: "Drug and Alcohol Dependence",
           links: [{ label: "doi", url: "https://doi.org/10.1016/j.drugalcdep.2020.107839" }]
         }
