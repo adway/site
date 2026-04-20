@@ -59,7 +59,7 @@ export default function Home() {
           I am a first-year PhD student in the <a href="https://stat.lsa.umich.edu">Department of Statistics</a> at the <a href="https://umich.edu">University of Michigan</a>. I graduated from Duke University with a B.S. in mathematics and statistical science in May 2025.
         </p>
         <p className="text-base text-zinc-800 mb-5 leading-snug text-justify">
-          I am interested in using principles from <span className="font-medium">classical statistics</span> (i.e. shape constraints, empirical Bayes, selective inference, graphical models) to inform robust <span className="font-medium">data science</span> and <span className="font-medium">machine learning</span> methodology. My applied interests lie in <span className="font-medium">human genetics</span> and <span className="font-medium">management science</span>.
+          I am interested in using principles from <span className="font-medium">classical statistics</span> (i.e. shape constraints, empirical Bayes, selective inference, graphical models) to inform robust <span className="font-medium">data science</span> and <span className="font-medium">machine learning</span> methodology. My applied interests lie in <span className="font-medium">human genetics</span>.
         </p>
         <p className="text-base text-zinc-800 mb-5 leading-snug text-justify">
           At Duke, I was fortunate to be advised by Prof. <a href="https://stat.duke.edu/~jerry">Jerry Reiter</a> and Prof. <a href="https://math.duke.edu/~ezra">Ezra Miller</a>. I also worked with Prof. Jichun Xie and with Prof. <a href="https://chiragjpgroup.org">Chirag Patel</a> at Harvard Medical School.
