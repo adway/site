@@ -56,7 +56,7 @@ export default function Home() {
       <section>
         {/* Body Text: Serif, Regular weight (not medium), slightly larger (text-lg) for readability */}
         <p className="text-base text-zinc-800 mb-5 leading-snug text-justify">
-          I am a first-year PhD student in the <a href="https://stat.lsa.umich.edu">Department of Statistics</a> at the <a href="https://umich.edu">University of Michigan</a>. I graduated from Duke University with a B.S. in mathematics and statistical science in May 2025.
+          I am a first-year PhD student in the <a href="https://stat.lsa.umich.edu">Department of Statistics</a> at the <a href="https://umich.edu">University of Michigan</a>. I graduated from Duke University with a B.S. in mathematics and statistical science in May 2025. Starting in Fall 2026, my work will be supported by the Department of Energy Computational Science Graduate Fellowship.
         </p>
         <p className="text-base text-zinc-800 mb-5 leading-snug text-justify">
           I am interested in using principles from <span className="font-medium">classical statistics</span> (i.e. shape constraints, empirical Bayes, selective inference, graphical models) to inform robust <span className="font-medium">data science</span> and <span className="font-medium">machine learning</span> methodology. My applied interests lie in <span className="font-medium">human and population genetics</span>.
