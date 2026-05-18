@@ -1,7 +1,7 @@
 export default function ResearchPage() {
   const publications = [
     {
-      year: "In Preparation",
+      year: "Preprints",
       items: [
         {
           title: "A sensitivity analysis framework for quantifying confidence in decisions in the presence of data uncertainty",
