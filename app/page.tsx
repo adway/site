@@ -1,74 +1,108 @@
 import Image from "next/image";
 
+function LinkIcon({ type }: { type: "email" | "cv" | "scholar" | "linkedin" }) {
+  if (type === "email") {
+    return (
+      <svg viewBox="0 0 24 24" aria-hidden="true" className="h-5 w-5 fill-none stroke-current stroke-[1.8]">
+        <path d="M3.75 6.75h16.5v10.5H3.75z" />
+        <path d="m4.5 7.5 7.5 6 7.5-6" />
+      </svg>
+    );
+  }
+
+  if (type === "cv") {
+    return (
+      <svg viewBox="0 0 24 24" aria-hidden="true" className="h-5 w-5 fill-none stroke-current stroke-[1.8]">
+        <path d="M7.5 3.75h6l4.5 4.5v12H7.5z" />
+        <path d="M13.5 3.75v4.5H18" />
+        <path d="M9.75 12h6" />
+        <path d="M9.75 15.75h6" />
+      </svg>
+    );
+  }
+
+  if (type === "scholar") {
+    return (
+      <svg viewBox="0 0 24 24" aria-hidden="true" className="h-5 w-5 fill-none stroke-current stroke-[1.8]">
+        <path d="m12 4.5 8.25 4.5L12 13.5 3.75 9z" />
+        <path d="M6.75 10.5v4.125c0 1.875 2.25 3.375 5.25 3.375s5.25-1.5 5.25-3.375V10.5" />
+      </svg>
+    );
+  }
+
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true" className="h-5 w-5 fill-none stroke-current stroke-[1.8]">
+      <path d="M8.25 9.75a2.25 2.25 0 1 1 0-4.5 2.25 2.25 0 0 1 0 4.5Z" />
+      <path d="M6.75 10.5v7.5" />
+      <path d="M11.25 10.5v7.5" />
+      <path d="M11.25 13.5c0-1.5 1.125-3 3-3s3 1.5 3 3v4.5" />
+    </svg>
+  );
+}
+
 export default function Home() {
   return (
-    <div className="mt-12 text-zinc-900 max-w-3xl mx-auto mb-12">
-      
-      {/* PROFILE HEADER */}
-      <div className="flex flex-col sm:flex-row gap-10 items-start mb-8 border-b border-zinc-200 pb-5">
-        
-        {/* PHOTO: Square, Sharp Corners, Slight Grayscale for gravitas */}
-        <div className="flex-shrink-0">
-         <div className="relative w-48 h-48 rounded-sm overflow-hidden border border-zinc-800">
-            <Image 
-              src="/adway.jpg" 
-              alt="Profile" 
-              fill 
-              className="object-cover hover:grayscale-0 transition-all duration-500" 
-            />
-        </div>
-        </div>
+    <div className="mx-auto mt-8 max-w-3xl text-[color:var(--ink)]">
+      <div className="w-full">
+        <section className="grid gap-8 md:grid-cols-[12rem_minmax(0,1fr)] md:items-start">
+          <div className="w-full max-w-[12rem]">
+            <div className="relative aspect-square overflow-hidden rounded-sm border border-[color:var(--line)]">
+              <Image
+                src="/adway.jpg"
+                alt="Portrait of Adway Wadekar"
+                fill
+                className="object-cover"
+              />
+            </div>
 
-        {/* BIO & LINKS */}
-        <div className="flex-grow pt-1">
-          <h1 className="text-2xl text-zinc-900 mb-3 tracking-tight">
-            Adway Wadekar
-          </h1>
-          
-          {/* Lighter weight text, more formal */}
-          <p className="text-zinc-800 text-md leading-snug mb-3">
-            Statistics PhD Student
-            <br />
-            <span className="italic">University of Michigan, Ann Arbor</span>
-          </p>
-
-          {/* Contact Links: Classic underlined style */}
-          <div className="flex gap-2 text-base text-zinc-800">
-            <a href="mailto:awadekar@umich.edu" className="hover:text-blue-800 underline decoration-zinc-400 underline-offset-4 decoration-1 transition-colors">
-              Email
-            </a>
-            <span className="text-zinc-800">•</span>
-            <a href="/docs/CV.pdf" className="hover:text-blue-800 underline decoration-zinc-400 underline-offset-4 decoration-1 transition-colors">
-              CV
-            </a>
-            <span className="text-zinc-800">•</span>
-            <a href="https://scholar.google.com/citations?user=GJeFNhkAAAAJ&hl=en&oi=ao" className="hover:text-blue-800 underline decoration-zinc-400 underline-offset-4 decoration-1 transition-colors">
-              Google Scholar
-            </a>
-            <span className="text-zinc-800">•</span>
-            <a href="https://linkedin.com/in/adway-wadekar" className="hover:text-blue-800 underline decoration-zinc-400 underline-offset-4 decoration-1 transition-colors">
-              LinkedIn
-            </a>
+            <div className="mt-4 space-y-2 text-base leading-6 text-[color:var(--muted)]">
+              <a
+                href="mailto:awadekar@umich.edu"
+                className="flex items-center gap-2 no-underline"
+              >
+                <LinkIcon type="email" />
+                Email
+              </a>
+              <a
+                href="/docs/CV.pdf"
+                className="flex items-center gap-2 no-underline"
+              >
+                <LinkIcon type="cv" />
+                CV
+              </a>
+              <a
+                href="https://scholar.google.com/citations?user=GJeFNhkAAAAJ&hl=en&oi=ao"
+                className="flex items-center gap-2 no-underline"
+              >
+                <LinkIcon type="scholar" />
+                Scholar
+              </a>
+              <a
+                href="https://linkedin.com/in/adway-wadekar"
+                className="flex items-center gap-2 no-underline"
+              >
+                <LinkIcon type="linkedin" />
+                LinkedIn
+              </a>
+            </div>
           </div>
-        </div>
+
+          <div>
+            <p className="mb-5 text-[1.05rem] leading-7 text-[color:var(--ink)]">
+              I am a first-year PhD student in the <a href="https://stat.lsa.umich.edu">Department of Statistics</a> at the <a href="https://umich.edu">University of Michigan</a>. I graduated from Duke University with a B.S. in mathematics and statistical science in May 2025. Starting in Fall 2026, I will be supported by the Department of Energy Computational Science Graduate Fellowship.
+            </p>
+            <p className="mb-5 text-[1.05rem] leading-7 text-[color:var(--ink)]">
+              I am interested in using principles from <span className="font-semibold text-[color:var(--ink)]">classical statistics</span> to inform robust <span className="font-semibold text-[color:var(--ink)]">data science</span> and <span className="font-semibold text-[color:var(--ink)]">machine learning</span> methodology, with applied interests in <span className="font-semibold text-[color:var(--ink)]">human and population genetics</span>.
+            </p>
+            <p className="mb-5 text-[1.05rem] leading-7 text-[color:var(--ink)]">
+              At Duke, I was fortunate to be advised by Prof. <a href="https://stat.duke.edu/~jerry">Jerry Reiter</a> and Prof. <a href="https://math.duke.edu/~ezra">Ezra Miller</a>. I also worked with Prof. Jichun Xie and with Prof. <a href="https://chiragjpgroup.org">Chirag Patel</a> at Harvard Medical School.
+            </p>
+            <p className="text-[1.05rem] leading-7 text-[color:var(--ink)]">
+              Outside of research, I have a strong interest in journalism. I worked as a <a href="https://www.dukechronicle.com/staff/adway-s-wadekar">news reporter and editor</a> for <span className="italic">The Chronicle</span>, Duke&apos;s student-run newspaper, where I won an Associated College Press award for breaking news. I am an avid basketball fan and worked on the creative team for Duke Men&apos;s Basketball for four years.
+            </p>
+          </div>
+        </section>
       </div>
-
-      <section>
-        {/* Body Text: Serif, Regular weight (not medium), slightly larger (text-lg) for readability */}
-        <p className="text-base text-zinc-800 mb-5 leading-snug text-justify">
-          I am a first-year PhD student in the <a href="https://stat.lsa.umich.edu">Department of Statistics</a> at the <a href="https://umich.edu">University of Michigan</a>. I graduated from Duke University with a B.S. in mathematics and statistical science in May 2025. Starting in Fall 2026, I will be supported by the Department of Energy Computational Science Graduate Fellowship.
-        </p>
-        <p className="text-base text-zinc-800 mb-5 leading-snug text-justify">
-          I am interested in using principles from <span className="font-medium">classical statistics</span> (i.e. shape constraints, empirical Bayes, selective inference, graphical models) to inform robust <span className="font-medium">data science</span> and <span className="font-medium">machine learning</span> methodology. My applied interests lie in <span className="font-medium">human and population genetics</span>.
-        </p>
-        <p className="text-base text-zinc-800 mb-5 leading-snug text-justify">
-          At Duke, I was fortunate to be advised by Prof. <a href="https://stat.duke.edu/~jerry">Jerry Reiter</a> and Prof. <a href="https://math.duke.edu/~ezra">Ezra Miller</a>. I also worked with Prof. Jichun Xie and with Prof. <a href="https://chiragjpgroup.org">Chirag Patel</a> at Harvard Medical School.
-        </p>
-        <p className="text-base text-zinc-800 leading-snug text-justify">
-          Outside of research, I have a strong interest in journalism. I worked as a <a href="https://www.dukechronicle.com/staff/adway-s-wadekar">news reporter and editor</a> for <span className="italic">The Chronicle</span>, Duke&apos;s student-run newspaper, where I won an Associated College Press award for breaking news. I am an avid basketball fan and worked on the creative team for Duke Men’s Basketball for four years.
-        </p>
-      </section>
-
     </div>
   );
 }

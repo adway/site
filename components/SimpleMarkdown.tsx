@@ -15,16 +15,16 @@ export default function SimpleMarkdown({ content }: SimpleMarkdownProps) {
       remarkPlugins={[remarkGfm, remarkBreaks, remarkMath]}
       rehypePlugins={[rehypeRaw, rehypeKatex]}
       components={{
-        h1: ({ ...props }) => <h1 className="mb-4 mt-8 text-3xl font-bold tracking-tight text-zinc-900" {...props} />,
+        h1: ({ ...props }) => <h1 className="mb-4 mt-7 text-3xl font-semibold tracking-[-0.03em] text-[color:var(--ink)]" {...props} />,
         h2: ({ ...props }) => (
-          <h2 className="mb-3 mt-8 text-2xl font-semibold tracking-tight text-zinc-900 normal-case" {...props} />
+          <h2 className="mb-3 mt-7 text-[1.55rem] font-semibold normal-case tracking-[-0.02em] text-[color:var(--ink)]" {...props} />
         ),
-        h3: ({ ...props }) => <h3 className="mb-2 mt-6 text-xl font-semibold text-zinc-900" {...props} />,
-        p: ({ ...props }) => <p className="mb-5 leading-7 text-zinc-800" {...props} />,
-        ul: ({ ...props }) => <ul className="my-4 list-disc pl-6 text-zinc-800" {...props} />,
+        h3: ({ ...props }) => <h3 className="mb-2 mt-6 text-xl font-semibold text-[color:var(--ink)]" {...props} />,
+        p: ({ ...props }) => <p className="mb-4 leading-7 text-[color:var(--ink)]" {...props} />,
+        ul: ({ ...props }) => <ul className="my-4 list-disc pl-6 text-[color:var(--ink)]" {...props} />,
         li: ({ ...props }) => <li className="mb-1" {...props} />,
         pre: ({ ...props }) => (
-          <pre className="my-6 overflow-x-auto rounded border border-zinc-200 bg-zinc-50 p-4" {...props} />
+          <pre className="my-6 overflow-x-auto rounded-sm border border-[color:var(--line)] bg-[#0f0f0f] p-4 text-[color:var(--ink)]" {...props} />
         ),
         code: ({ className, children, ...props }) => {
           const isBlock = Boolean(className?.includes('language-'));
@@ -38,7 +38,7 @@ export default function SimpleMarkdown({ content }: SimpleMarkdownProps) {
           }
 
           return (
-            <code className="rounded bg-zinc-100 px-1 py-0.5 text-sm" {...props}>
+            <code className="rounded-sm bg-[#111111] px-1 py-0.5 text-sm text-[color:var(--ink)]" {...props}>
               {children}
             </code>
           );

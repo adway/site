@@ -18,7 +18,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className="font-sans antialiased text-zinc-900">
+      <body className="font-sans text-[color:var(--ink)]">
         <Navbar showNotes={showNotes} />
         <main className="mx-auto px-6">
           {children}

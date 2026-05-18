@@ -18,19 +18,13 @@ export default function Navbar({ showNotes }: NavbarProps) {
   ];
 
   return (
-    <nav className="mt-8 px-6">
-      {/* Aligned with main content (max-w-3xl).
-        Added border-b for a classic "header" separation feel.
-      */}
-      <div className="max-w-3xl mx-auto flex justify-between items-baseline ">
-        
-        {/* Name: Serif, Dark Neutral (Matches the body text) */}
-        <Link href="/" className="text-xl text-neutral-900 hover:text-neutral-600 transition-colors no-underline">
+    <nav className="mt-6 px-6">
+      <div className="mx-auto flex max-w-3xl items-baseline justify-between border-b border-[color:var(--line)] pb-3">
+        <Link href="/" className="text-[1.08rem] font-medium text-[color:var(--ink)] transition-colors no-underline hover:text-[color:var(--um-blue)]">
           Adway Wadekar
         </Link>
 
-        {/* Navigation Links */}
-        <div className="flex gap-6 text-base">
+        <div className="flex gap-4 text-[0.96rem]">
           {navItems.map((item) => {
             const isActive = pathname === item.path;
 
@@ -38,13 +32,13 @@ export default function Navbar({ showNotes }: NavbarProps) {
               <Link
                 key={item.path}
                 href={item.path}
-                className={`transition-all no-underline ${
+                className={`no-underline transition-colors ${
                   isActive 
-                    ? 'text-neutral-900 font-semibold border-neutral-900' // Active: Dark + Underline
-                    : 'text-neutral-500 hover:text-blue-800' // Inactive: Grey -> Blue on hover (classic link style)
+                    ? 'font-medium text-[color:var(--ink)]'
+                    : 'text-[color:var(--muted)] hover:text-[color:var(--um-blue)]'
                 }`}
               >
-                {item.name}
+                {item.name.toLowerCase()}
               </Link>
             );
           })}

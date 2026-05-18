@@ -39,19 +39,19 @@ export default async function NotePage({ params }: NotePageProps) {
 
   return (
     <article className="mx-auto mb-16 mt-12 max-w-3xl">
-      <Link href="/notes" className="mb-8 inline-block text-sm no-underline">
+      <Link href="/notes" className="mb-8 inline-block text-sm no-underline text-[color:var(--muted)] hover:text-[color:var(--um-blue)]">
         ← Back to notes
       </Link>
 
-      <header className="mb-8 border-b border-zinc-200 pb-6">
-        <h1 className="mb-2 text-zinc-900">{post.title}</h1>
-        <p className="mb-2 text-sm text-zinc-500">{post.date || 'Undated'}</p>
+      <header className="mb-8 border-b border-[color:var(--line)] pb-6">
+        <h1 className="mb-2 text-[color:var(--um-blue)]">{post.title}</h1>
+        <p className="mb-2 text-sm text-[color:var(--muted)]">{post.date || 'Undated'}</p>
         {post.tags.length > 0 ? (
           <div className="flex flex-wrap gap-2">
             {post.tags.map((tag) => (
               <span
                 key={`${post.slug}-${tag}`}
-                className="rounded border border-zinc-300 px-2 py-0.5 text-xs uppercase tracking-wide text-zinc-600"
+                className="meta-chip rounded px-2 py-0.5 text-xs uppercase tracking-wide"
               >
                 {tag}
               </span>

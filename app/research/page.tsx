@@ -52,36 +52,29 @@ export default function ResearchPage() {
   ];
 
   return (
-    <div className="mt-12 max-w-3xl mx-auto mb-12">
-      {/* Matches Home Page H1: text-xl, zinc-900 */}
-      <h1 className="text-zinc-900 text-bold mb-4">
+    <div className="mt-8 max-w-3xl mx-auto mb-12">
+      <h1 className="mb-6">
         Research
       </h1>
 
-      {/* PAPERS SECTION */}
       <div className="space-y-8">
-        <h2 className="text-lg font-medium text-zinc-800 border-b border-zinc-200 pb-2 mb-6">
+        <h2 className="mb-6 border-b border-[color:var(--line)] pb-3">
           Peer-Reviewed Publications
         </h2>
         {publications.map((group, i) => (
           <div key={i} className="mb-0">
-            
-            {/* Year Header: text-base, italic (same size as body text, but styled) */}
-            <h3 className="text-sm font-bold font-mono uppercase text-zinc-800 mb-2">
+            <h3 className="mb-3 text-sm font-semibold uppercase tracking-[0.16em] text-[color:var(--muted)]">
               {group.year}
             </h3>
 
             <ul className="space-y-4"> 
               {group.items.map((paper, j) => (
-                <li key={j} className="flex flex-col text-base leading-snug text-zinc-800">
-                  
-                  {/* Title */}
+                <li key={j} className="flex flex-col border-l border-[color:var(--paper-edge)] pl-4 text-base leading-snug text-[color:var(--ink)]">
                   <div className="mb-0.5">
-                    <span className="text-zinc-800 font-medium">{paper.title}</span>.
+                    <span className="font-medium text-[color:var(--ink)]">{paper.title}</span>.
                   </div>
 
-                  {/* Authors & Venue */}
-                  <div className="text-zinc-600">
+                  <div className="text-[color:var(--muted)]">
                     {paper.authors}
                     {paper.venue && (
                       <>
@@ -91,13 +84,12 @@ export default function ResearchPage() {
                     )}
                   </div>
 
-                  {/* Links: Matches Home page link style */}
                   <div className="mt-1 text-sm">
                     {paper.links.map((link, k) => (
                       <a 
                         key={k} 
                         href={link.url} 
-                        className="mr-3 text-zinc-600 hover:text-blue-800 transition-colors no-underline decoration-zinc-400 hover:decoration-blue-800 decoration-1"
+                        className="mr-3 no-underline text-[color:var(--muted)] transition-colors hover:text-[color:var(--um-blue)]"
                       >
                         [{link.label}]
                       </a>
@@ -111,23 +103,21 @@ export default function ResearchPage() {
         ))}
       </div>
 
-    {/* EXPOSITORY SECTION */}
     <div className="mt-12 max-w-3xl mx-auto mb-0">
-      <h2 className="text-lg font-medium text-zinc-900 border-b border-zinc-200 pb-2 mb-6">
+      <h2 className="mb-6 border-b border-[color:var(--line)] pb-3">
         Expository Writing
       </h2>
       
-      <ul className="space-y-2 list-disc list-inside text-zinc-800">
+      <ul className="space-y-3 list-disc list-inside text-[color:var(--ink)]">
         {expository.map((item, i) => (
           <li key={i}>
             <a 
               href={item.link} 
-              className="hover:text-blue-800 underline decoration-zinc-300 hover:decoration-blue-800 underline-offset-4 decoration-1 transition-all text-base"
+              className="text-base transition-all"
             >
               {item.title}
             </a>
-            {/* The comma and description */}
-            <span className="text-zinc-600">, {item.description}</span>
+            <span className="text-[color:var(--muted)]">, {item.description}</span>
           </li>
         ))}
       </ul>

@@ -91,25 +91,25 @@ export default function TeachingPage() {
   ];
 
   return (
-    <div className="mt-12 max-w-3xl mx-auto mb-12">
-      <h1 className="text-zinc-900 font-bold mb-4">Teaching</h1>
+    <div className="mt-8 max-w-3xl mx-auto mb-12">
+      <h1 className="mb-6">Teaching</h1>
 
       <div>
         {teaching.map((group, i) => (
           <div key={i} className={i === 0 ? "mb-0" : "mt-12 mb-0"}>
-            <h2 className="mt-0 text-lg font-medium text-zinc-800 border-b border-zinc-200 pb-2 mb-6">
+            <h2 className="mt-0 mb-6 border-b border-[color:var(--line)] pb-3">
               {group.institution}
             </h2>
 
             <ul className="space-y-4">
               {group.courses.map((item, j) => (
-                <li key={j} className="flex flex-col text-base leading-snug text-zinc-800">
+                <li key={j} className="flex flex-col border-l border-[color:var(--paper-edge)] pl-4 text-base leading-snug text-[color:var(--ink)]">
                   <div className="mb-0.5">
-                    <span className="font-medium text-zinc-800">{item.course}</span>
+                    <span className="font-medium text-[color:var(--ink)]">{item.course}</span>
                     {item.evaluation && (
                       <a
                         href={item.evaluation.href}
-                        className="ml-2 text-sm text-zinc-600 hover:text-blue-800 transition-colors no-underline decoration-zinc-400 hover:decoration-blue-800 decoration-1"
+                        className="ml-2 text-sm no-underline text-[color:var(--muted)] transition-colors hover:text-[color:var(--um-blue)]"
                       >
                         ({item.evaluation.label})
                       </a>
@@ -117,17 +117,17 @@ export default function TeachingPage() {
                   </div>
 
                   {(item.role || item.instructor) && (
-                    <div className="text-zinc-600">
+                    <div className="text-[color:var(--muted)]">
                       {item.role && <span className="italic">{item.role}</span>}
                       {item.role && item.instructor && <span className="mx-1.5">/</span>}
                       {item.instructor && <span>Instructor: {item.instructor}</span>}
                     </div>
                   )}
 
-                  <div className="mt-1 text-sm text-zinc-600">
+                  <div className="mt-1 text-sm text-[color:var(--muted)]">
                     {item.terms.map((term, k) => (
                       <span key={k}>
-                        {k > 0 && <span className="mx-1.5 text-zinc-400">•</span>}
+                        {k > 0 && <span className="mx-1.5 text-[color:var(--um-maize)]">•</span>}
                         <span>{term.label}</span>
                       </span>
                     ))}
