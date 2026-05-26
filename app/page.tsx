@@ -89,7 +89,7 @@ export default function Home() {
 
           <div>
             <p className="mb-5 text-[1.05rem] leading-7 text-[color:var(--ink)]">
-              I am a first-year PhD student in the <a href="https://stat.lsa.umich.edu">Department of Statistics</a> at the <a href="https://umich.edu">University of Michigan</a>, working with Prof. <a href="https://jake-soloff.github.io/">Jake Soloff</a>. I graduated from Duke University with a B.S. in mathematics and statistical science in May 2025. Starting in Fall 2026, I will be supported by the Department of Energy Computational Science Graduate Fellowship.
+              I am a first-year PhD student in the <a href="https://stat.lsa.umich.edu">Department of Statistics</a> at the <a href="https://umich.edu">University of Michigan</a>, advised by Prof. <a href="https://jake-soloff.github.io/">Jake Soloff</a>. I graduated from Duke University with a B.S. in mathematics and statistical science in May 2025. Starting in Fall 2026, I will be supported by the Department of Energy Computational Science Graduate Fellowship.
             </p>
             <p className="mb-5 text-[1.05rem] leading-7 text-[color:var(--ink)]">
               I am interested in using principles from <span className="font-semibold text-[color:var(--ink)]">classical statistics</span> to inform robust <span className="font-semibold text-[color:var(--ink)]">data science</span> and <span className="font-semibold text-[color:var(--ink)]">machine learning</span> methodology, with applied interests in <span className="font-semibold text-[color:var(--ink)]">human and population genetics</span>.
