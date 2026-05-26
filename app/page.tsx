@@ -89,13 +89,13 @@ export default function Home() {
 
           <div>
             <p className="mb-5 text-[1.05rem] leading-7 text-[color:var(--ink)]">
-              I am a first-year PhD student in the <a href="https://stat.lsa.umich.edu">Department of Statistics</a> at the <a href="https://umich.edu">University of Michigan</a>. I graduated from Duke University with a B.S. in mathematics and statistical science in May 2025. Starting in Fall 2026, I will be supported by the Department of Energy Computational Science Graduate Fellowship.
+              I am a first-year PhD student in the <a href="https://stat.lsa.umich.edu">Department of Statistics</a> at the <a href="https://umich.edu">University of Michigan</a>, working with Prof. <a href="https://jake-soloff.github.io/">Jake Soloff</a>. I graduated from Duke University with a B.S. in mathematics and statistical science in May 2025. Starting in Fall 2026, I will be supported by the Department of Energy Computational Science Graduate Fellowship.
             </p>
             <p className="mb-5 text-[1.05rem] leading-7 text-[color:var(--ink)]">
               I am interested in using principles from <span className="font-semibold text-[color:var(--ink)]">classical statistics</span> to inform robust <span className="font-semibold text-[color:var(--ink)]">data science</span> and <span className="font-semibold text-[color:var(--ink)]">machine learning</span> methodology, with applied interests in <span className="font-semibold text-[color:var(--ink)]">human and population genetics</span>.
             </p>
             <p className="mb-5 text-[1.05rem] leading-7 text-[color:var(--ink)]">
-              At Duke, I was fortunate to be advised by Prof. <a href="https://stat.duke.edu/~jerry">Jerry Reiter</a> and Prof. <a href="https://math.duke.edu/~ezra">Ezra Miller</a>. I also worked with Prof. Jichun Xie and with Prof. <a href="https://chiragjpgroup.org">Chirag Patel</a> at Harvard Medical School.
+              At Duke, I was fortunate to be advised by Prof. <a href="https://stat.duke.edu/~jerry">Jerry Reiter</a> and Prof. <a href="https://math.duke.edu/~ezra">Ezra Miller</a>. I also worked with Prof. <a href="https://chiragjpgroup.org">Chirag Patel</a> at Harvard Medical School.
             </p>
             <p className="text-[1.05rem] leading-7 text-[color:var(--ink)]">
               Outside of research, I have a strong interest in journalism. I worked as a <a href="https://www.dukechronicle.com/staff/adway-s-wadekar">news reporter and editor</a> for <span className="italic">The Chronicle</span>, Duke&apos;s student-run newspaper, where I won an Associated College Press award for breaking news. I am an avid basketball fan and worked on the creative team for Duke Men&apos;s Basketball for four years.

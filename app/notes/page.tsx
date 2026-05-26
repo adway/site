@@ -5,8 +5,8 @@ export default function NotesIndexPage() {
   const posts = getAllPosts();
 
   return (
-    <div className="mx-auto mb-12 mt-12 max-w-3xl">
-      <h1 className="mb-2 text-[color:var(--um-blue)]">Notes</h1>
+    <div className="mt-8 max-w-3xl mx-auto mb-12">
+      <h1 className="mb-6">Notes</h1>
       <p className="mb-8 text-base text-[color:var(--muted)]">
         Some expository notes and statistics, probability and machine learning.
       </p>

@@ -6,7 +6,7 @@ import { hasPublishedPosts } from '@/lib/notes';
 
 export const metadata: Metadata = {
   title: 'Adway Wadekar',
-  description: 'Academic Portfolio',
+  description: 'Personal website.',
 };
 
 export default function RootLayout({
