@@ -89,7 +89,7 @@ export default function Home() {
 
           <div>
             <p className="mb-5 text-[1.05rem] leading-7 text-[color:var(--ink)]">
-              I am a first-year PhD student in the <a href="https://stat.lsa.umich.edu">Department of Statistics</a> at the <a href="https://umich.edu">University of Michigan</a>, advised by Prof. <a href="https://jake-soloff.github.io/">Jake Soloff</a>. I graduated from Duke University with a B.S. in mathematics and statistical science in May 2025. Starting in Fall 2026, I will be supported by the Department of Energy Computational Science Graduate Fellowship.
+              I am a second-year PhD student in the <a href="https://stat.lsa.umich.edu">Department of Statistics</a> at the <a href="https://umich.edu">University of Michigan</a>, advised by Prof. <a href="https://jake-soloff.github.io/">Jake Soloff</a>. I graduated from Duke University with a B.S. in mathematics and statistical science in May 2025. Starting in Fall 2026, I will be supported by the Department of Energy Computational Science Graduate Fellowship.
             </p>
             <p className="mb-5 text-[1.05rem] leading-7 text-[color:var(--ink)]">
               I am interested in developing robust statistical tools that are well-adapted to the <span className="font-semibold text-[color:var(--ink)]">philosophy and practice of modern data science</span>. Specific areas of interest include multiple testing and selective inference, causal discovery and methods for AI-powered inference. My applied interests lie in <span className="font-semibold text-[color:var(--ink)]">human and population genetics</span>.
