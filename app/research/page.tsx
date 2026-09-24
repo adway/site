@@ -3,18 +3,23 @@ export default function ResearchPage() {
     {
       year: "Preprints",
       items: [
-         {
-          title: "Calibration without labels in multiple testing",
-          authors: "A.S. Wadekar and J.A. Soloff",
-          venue: "Under review at NeurIPS",
-          links: [{ label: "arXiv", url: "https://arxiv.org/abs/2606.19737" }]
-        },
         {
           title: "A sensitivity analysis framework for quantifying confidence in decisions in the presence of data uncertainty",
           authors: "A.S. Wadekar and J.P. Reiter",
           venue: "Major revision at Statistics and Public Policy",
           links: [{ label: "arXiv", url: "https://arxiv.org/abs/2504.17043" }]
         }
+      ]
+    },
+    {
+      year: "2026",
+      items: [
+        {
+          title: "Calibration without labels in multiple testing",
+          authors: "A.S. Wadekar and J.A. Soloff",
+          venue: "To appear in Advances in Neural Information Processing Systems 40 (NeurIPS 2026)",
+          links: [{ label: "arXiv", url: "https://arxiv.org/abs/2606.19737" }]
+        },
       ]
     },
     {
